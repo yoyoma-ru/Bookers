@@ -20,12 +20,24 @@
 }
 h1{
 	margin-bottom: 10px;
+	font-size: 30px;
+}
+h2{
+	margin: 10px 0;
+}
+a:-webkit-any-link{
+	text-decoration: underline;
+	color: #000;
+}
+h1, h2, .top{
+	font-family: verdana, arial, helvetica, sans-serif;
 }
 .clearfix::after{
 	content: "";
 	display: block;
 	clear: both;
 }
+
 
 body{
 	margin: 33px;
@@ -35,13 +47,22 @@ body{
 	margin: 33px;
 }
 
-thead{
-	margin-bottom: 10px;
-}
+/*index*/
 th{
 	text-align: center;
+	padding-bottom: 5px;
 }
 td{
-	display: table-cell;
-	padding-bottom: 20px,
+	padding: 0 5px 7px;
+	font-size: 15px;
+}
+.notice{
+	color: green;
+	padding: 0 33px 33px;
+}
+h4{
+	padding: 0 33px 33px;
+}
+.boxes{
+	padding-bottom: 10px;
 }
