@@ -66,3 +66,18 @@ h4{
 .boxes{
 	padding-bottom: 10px;
 }
+#error_explanation{
+	border: 2px solid red;
+	width: 450px;
+	margin-bottom: 20px;
+}
+#error_explanation h3{
+	background-color: red;
+	color: #fff;
+}
+ul{
+	margin: 30px  50px;
+}
+li{
+	padding: 2px 2px;
+}
